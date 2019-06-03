@@ -16,15 +16,20 @@
     overflow: hidden;
 }
 .swiper>.banner{
+    /*position: relative;*/
     width:400%;
     height:100%;
     overflow: hidden;
     transition: .5s;
 }
 .banner>li{
+    /*position: absolute;*/
     float: left;
     width:25%;
     height:100%;
+}
+.banner>li:nth-child(n+2){
+    left: 100%;
 }
 .banner>li>a>img{
     width:100%;
