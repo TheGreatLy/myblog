@@ -49,11 +49,11 @@ nav>.nav-con{
 .nav-con>.serach{width:45px;height:100%;float:right;}
 .serach>img{width:30px;height:30px;vertical-align: middle;cursor: pointer;}
 
-/* @media screen and (max-width:1499px) {
+@media screen and (max-width:1499px) {
     .nav-con>h1{
-        margin:auto;
-        margin-left: 50%;
-        transform: translate(-60%,0);
+        /*margin:auto;*/
+        /*margin-left: 50%;*/
+        /*transform: translate(-60%,0);*/
         position: relative;
         left:calc(50% - 35px);
         transform: translate(-50%,0);
@@ -67,4 +67,4 @@ nav>.nav-con{
     .nav-con>.caidan{
         display: block;
     }
-} */
+}
